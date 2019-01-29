@@ -5,4 +5,6 @@ def square_array(array)
     number **= 2
     puts "After math #{number}."
   end
+  array.each do |number|
+    puts "Result: #{number}."
 end
